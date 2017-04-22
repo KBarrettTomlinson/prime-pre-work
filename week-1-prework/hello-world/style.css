@@ -1,0 +1,14 @@
+*{
+  /* border: 1px solid black;*/
+  font-family: arial, helvetica, sans-serif;
+}
+
+h1{
+  font-size: 56px;
+  text-align: center;
+}
+
+p{
+  font-size: 28px;
+  text-align: center;
+}

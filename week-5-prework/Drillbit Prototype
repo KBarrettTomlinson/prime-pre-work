@@ -1,0 +1,35 @@
+//Discussion question of the week! ""Consider an electric drill.
+//It can use different drill bits. It can be charging, idling, or in use.
+//When in use it can be rotating clockwise or counter-clockwise.
+//What would this object's prototype look like?
+//What properties/methods would it have?""
+
+function Drill(status, brand, voltage){
+  this.drillBits = [];
+  this.currentBit = string;
+  this.status = status; //charging, idling, in-use
+  this.rotation = boolean; //true is clockwise false is counter
+  this.charge = this.reportCharge();
+  this.torque = number; //can be 1 - 20
+  this.brand = brand;
+  this.voltage = voltage;
+
+  this.addDrillBit = function(newBit){
+    //pushes new bit to array this.drillBits
+  }
+  this.changeDrillBit = function(changeBit){
+    //checks to see if bit you are changing to is new
+    //calls this.addDrillBit if it is needed
+    //changes this.currentBit
+  }
+  this.changeRotation = function(){
+    //changes this.rotation to !this.rotation
+  }
+  this.reportChargeStatus(){
+    //evaluates if the drill has low medium or high charge
+  }
+  this.changeTorque(newTorque){
+    //changes this.torque to the value of newTorque
+  }
+
+}
